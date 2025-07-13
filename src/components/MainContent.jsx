@@ -5,14 +5,11 @@ import EmailSignup from './EmailSignup';
 const MainSection = ({ isLoaded }) => {
   return (
     <section
-<<<<<<< HEAD
-      className={`text-center pt-28 md:pt-36 px-6 pb-20 w-full mx-auto transform transition-all duration-1000 ${
-=======
-      className={`text-center pt-28 md:pt-36 px-6 pb-20 max-w-8xl mx-auto transform transition-all duration-1000 ${
->>>>>>> e6ead8a1926f7d667869ba2155c8ce06f27c3013
-        isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
-      }`}
-    >
+  className={`text-center pt-28 md:pt-36 px-6 pb-20 w-full max-w-8xl mx-auto transform transition-all duration-1000 ${
+    isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
+  }`}
+>
+
       <div className="text-6xl md:text-8xl mb-6 animate-bounce drop-shadow-[0_0_15px_rgba(255,100,100,0.6)]">
 </div>
 
